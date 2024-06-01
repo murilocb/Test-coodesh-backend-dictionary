@@ -1,0 +1,130 @@
+{
+  "info": {
+    "name": "coodesh",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "bruno",
+      "event": []
+    },
+    {
+      "name": "SignUp",
+      "event": [],
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": "http://localhost:3001/auth/signup",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Murilo\",\n  \"email\": \"teste@teste.com\",\n  \"password\": \"123456789\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "FullStack",
+      "event": [],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "http://localhost:3001/",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Murilo\",\n  \"email\": \"teste@teste.com\",\n  \"password\": \"123456789\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "SignIn",
+      "event": [],
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": "http://localhost:3001/auth/signin",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"email\": \"teste@teste.com\",\n  \"password\": \"123456789\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "En",
+      "event": [],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "http://localhost:3001/entries/en?seach=a&limit=20&page=1"
+      }
+    },
+    {
+      "name": "word",
+      "event": [],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "http://localhost:3001/entries/en/a"
+      }
+    },
+    {
+      "name": "favorite",
+      "event": [],
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": "http://localhost:3001/entries/en/a/favorite"
+      }
+    },
+    {
+      "name": "Delete Favorite",
+      "event": [],
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": "http://localhost:3001/entries/en/a/unfavorite"
+      }
+    },
+    {
+      "name": "Me",
+      "event": [],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "http://localhost:3001/user/me"
+      }
+    },
+    {
+      "name": "History",
+      "event": [],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "http://localhost:3001/user/me/history"
+      }
+    },
+    {
+      "name": "User Favorites",
+      "event": [],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "http://localhost:3001/user/me/favorites"
+      }
+    }
+  ],
+  "variable": []
+}

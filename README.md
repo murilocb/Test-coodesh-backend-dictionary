@@ -1,5 +1,46 @@
 # Back-end Challenge - Dictionary
 
+Este projeto é uma API para um dicionário online que permite aos usuários pesquisar palavras, ver definições, salvar favoritos e visualizar o histórico de palavras pesquisadas.
+
+### Tecnologias Utilizadas
+Linguagem: TypeScript
+Framework: Node.js (com Express.js)
+Banco de Dados: MongoDB
+Cache: Redis
+
+## Instalação e Uso
+
+1. Clone este repositório:
+```bash
+git clone https://github.com/seu-usuario/Test-coodesh-backend-dictionary.git
+```
+
+```bash
+cd Test-coodesh-backend-dictionary
+```
+
+Suba o MongoDb e Redis:
+```bash
+docker-compose up -d
+```
+
+Instale as dependências:
+```bash
+npm install
+```
+
+Defina as variáveis de ambiente no arquivo .env, incluindo a URL do banco de dados MongoDB e a URL do Redis.
+
+Inicie o servidor:
+
+```bash
+npm start
+```
+O servidor estará disponível em http://localhost:3001 ou na porta que definir.
+
+# Challenge by Coodesh
+Este é um desafio proposto pela Coodesh.
+
 ## Introdução
 
 Este é um teste para que possamos ver as suas habilidades como Back-end Developer.
